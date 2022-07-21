@@ -60,12 +60,18 @@ let numberOn= prompt('Digite um número');
 let numberTw = prompt('Digite um número');
 let numberThr = prompt('Digite um número');
 
-if(numberOn> numberTw && numberOn > numberThr) {
-    alert('O ' + numberOn + ' é maior que o ' + numberTw);
-} if(numberTw > numberOn && numberTw > numberThr) {
-    alert('O ' + numberTw + ' é maior que o ' + numberOn);
-} else(numberThr > numberOn && numberThr > numberTw); {
-    alert('O ' + numberThr + ' é maior que o ' + numberOn + ' e ' + numberTw)
+if(numberOn > numberTw && numberOn > numberThr && numberThree < numberTw) {
+    alert('O maior número é o ' + numberOn + ' e o menor número é ' + numberThr)
+} if(numberOn > numberTw && numberOne > numberThr && numberTw < numberThr) {
+    alert('O maior número é o ' + numberOn + ' e o menor número é ' + numberTw)
+} if(numberTw > numberOn && numberTw > numberThr && numberThr < numberOn) {
+    alert('O maior número é o ' + numberTw + ' e o menor número é ' + numberThr)
+} if(numberTw > numberOn && numberTw > numberThr && numberOn < numberThr) {
+    alert('O maior número é o ' + numberTw + ' e o menor número é ' + numberOn)
+} if(numberThr > numberOn && numberThr > numberTw && numberTw < numberOn) {
+    alert('O maior número é o ' + numberThr + ' e o menor número é ' + numberTw)
+} else(numberThr > numberOn && numberThr > numberTw && numberOn < numberTw); {
+    alert('O maior número é o ' + numberThr + ' e o menor número é ' + numberOn)
 }
 /* Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
 A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
